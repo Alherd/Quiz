@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:text="The capital of India"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delhi"/>
+    <Button
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Islamabad"/>
+    <Button
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kathmandu"/>
+    <Button
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Dehli"/>
+</LinearLayout>
